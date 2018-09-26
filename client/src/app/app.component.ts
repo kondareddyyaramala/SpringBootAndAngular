@@ -10,6 +10,7 @@ export class AppComponent {
 
   @HostListener('document:click', ['$event'])
   onDocumentClick($event) {
+    // listens to the click event on document
   }
 
 }
